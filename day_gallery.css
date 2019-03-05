@@ -1,13 +1,14 @@
+body h3{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.411);
+}
 ol li:hover{
-    border: 4px blue solid;
-    height:150%;
-    weight:150%;
-    margin-top: 1em;
+    border: 2px rgb(0, 0, 100) solid;
+    margin-bottom: 2px;
     cursor:pointer;
 }
-.container-item img{
-    max-height:70vh;
-}
-.container-item img{
-    background-size: cover;
-}
+ol li{
+    border:2px blue solid;
+}	
+
+
