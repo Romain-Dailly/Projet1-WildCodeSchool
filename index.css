@@ -45,7 +45,7 @@ opacity: 0.5;
 	width: 100%;
 	opacity: 0;
 	transition: .5s ease;
-	background-color:yellow;
+	background-color:#ffa500;
   }
 
   .nuit .overlay {
