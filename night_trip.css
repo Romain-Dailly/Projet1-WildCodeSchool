@@ -1,20 +1,29 @@
-body {
-	background-color: grey;
-	color: white;
+/*charte graphique page web*/
+footer
+{
+	background-color:#e7ebf1;
 }
 
+/*scrollUp*/
+#scrollUp
+{
+position: fixed;
+bottom : 10px;
+margin-left: 95%;
+opacity: 0.5;
+}
 
-.background img {
+body .background {
     width: 100%;
     margin-bottom: 10rem;
-    margin-left: auto;
-    margin-right: auto;
     z-index: 1; 
+    height: auto;
+    margin-top: 5rem;
 }
 
 .imgCard {
-    width: 300%;
-    height: 300%;
+    width: 100%;
+    height: 100%;
     
 }
 
@@ -23,21 +32,15 @@ body .imgCard{
 	margin-right: auto;
 }
 
-.card { 
-   width: 20rem; 
-   margin-left: auto;
-   margin-right: auto;
-
+.cardtent {
+    width: 50%;
 }
 
 /* BOUTON */ 
 
 
 /*.posAbs {
-	background-image: url(mapnantesnuit.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	position: absolute;
+	position: relative;
 	width: 100%;
   height: 100%;
 
@@ -46,30 +49,29 @@ body .imgCard{
 
 .emplacement {
     position: relative;
-		top: 20rem;
-    left: 20rem;
+    top: 50px;
+    left: 31px;
     z-index: 2;
+    width: 20%;
   
 }
 
 .emplacement1 {
     position: relative;
-    top: -30rem;
-    left: 32rem;
+    top: 27rem;
+    left: 35rem;
     z-index: 2;
+    width: 20%;
 }
-
 .emplacement2 {
 	position: relative;
-    top: -53rem;
-    left: 41rem;
+    width: 20%;
     z-index: 2;
 }
 
 .emplacement3 {
 	position: relative;
-    top: -60rem;
-		left: 49rem;
+    width: 20%;
     z-index: 2;
 }
 
