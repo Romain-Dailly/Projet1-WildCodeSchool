@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="day_gallery.css">
-    <meta charset="utf-8">
-    <title>Vis ma ville - Galerie Jour</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js"></script>
+  <meta charset="utf-8">
+  <title>Vis ma ville</title>
 </head>
 
 <body>
+    <div id="scrollUp">
+        <a href="#top"><img src="logo/to_top.png" title="Menu"/></a>
+    </div>
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="index.html">Vis ma ville</a>
@@ -16,10 +21,11 @@
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownDecouvrir" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
               Découvrir Nantes
             </a>
@@ -29,7 +35,7 @@
             </div>
           </li>
           <li class="nav-item active dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownGalerie" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
               Galerie Photos
             </a>
@@ -37,10 +43,17 @@
               <a class="dropdown-item" href="day_gallery.html">Jour</a>
               <a class="dropdown-item" href="night_gallery.html">Nuit</a>
             </div>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
           </li>
         </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
       </div>
-    </nav>
+    </nav>   
   </header>
   <section>
     <div class="row d-flex justify-content-center mt-4" id="chateau"><h2>Chateau-Bouffay</h2></div>
