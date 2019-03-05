@@ -30,7 +30,8 @@
 			function initMap() {
                 var markers = []; // Nous initialisons la liste des marqueurs
 // Nous définissons le dossier qui contiendra les marqueurs
-	            var iconBase = 'http://maps.gstatic.com/intl/de_de/mapfiles/ms/micons/red-pushpin.png';
+                var iconeDay = 'https://i.postimg.cc/JzSfGLgZ/marker-day-64px.png';
+                var iconeNight = 'https://i.postimg.cc/QdBL8t6j/marker-night-64px.png';
 // Créer l'objet "macarte" et l'insèrer dans l'élément HTML qui a l'ID "map"
                 macarte = L.map('map').setView([lat, lon], 11);
 // Leaflet ne récupère pas les cartes (tiles) sur un serveur par défaut. Nous devons lui préciser où nous souhaitons les récupérer. Ici, openstreetmap.fr
@@ -42,26 +43,30 @@
                 }).addTo(macarte);
 // Nous parcourons la liste des villes
             for (ville in tripDay) {
-                var marker = L.marker([tripDay[ville].lat, tripDay[ville].lon]).addTo(macarte);
-// Nous ajoutons la popup. A noter que son contenu (ici la variable ville) peut être du HTML
-            marker.bindPopup(ville);
+        var myIconDay = L.icon({
+			iconUrl: iconeDay,
+			iconSize: [40, 50],
+			iconAnchor: [25, 50],
+			popupAnchor: [-3, -50],
+		});
+        var marker = L.marker([tripDay[ville].lat, tripDay[ville].lon], { icon: myIconDay }).addTo(macarte);
+            marker.bindPopup(ville); // Nous ajoutons la popup. A noter que son contenu (ici la variable ville) peut être du HTML
             markers.push(marker); // Nous ajoutons le marqueur à la liste des marqueurs
             }   
             
             for (ville in tripNight) {
-// Nous définissons l'icône à utiliser pour le marqueur, sa taille affichée (iconSize), sa position (iconAnchor) et le décalage de son ancrage (popupAnchor)
-		var myIcon = L.icon({
-			iconUrl: iconBase,
-			iconSize: [50, 50],
+		var myIconNight = L.icon({ // Nous définissons l'icône à utiliser pour le marqueur, sa taille affichée (iconSize), sa position (iconAnchor) et le décalage de son ancrage (popupAnchor)
+			iconUrl: iconeNight,
+			iconSize: [40, 50],
 			iconAnchor: [25, 50],
-			popupAnchor: [-3, -76],
+			popupAnchor: [-3, -50],
 		});
-		var marker = L.marker([tripNight[ville].lat, tripNight[ville].lon], { icon: myIcon }).addTo(macarte);
-        marker.bindPopup(ville);    
-        markers.push(marker); // Nous ajoutons le marqueur tripNight à la liste des marqueurs
+		    var marker = L.marker([tripNight[ville].lat, tripNight[ville].lon], { icon: myIconNight }).addTo(macarte);
+            marker.bindPopup(ville);    
+            markers.push(marker); // Nous ajoutons le marqueur tripNight à la liste des marqueurs
             }  
                 // Nous ajoutons un marqueur
-                var marker = L.marker([lat, lon]).addTo(macarte);
+                
                 var group = new L.featureGroup(markers); // Nous créons le groupe des marqueurs pour adapter le zoom
 	            macarte.fitBounds(group.getBounds().pad(0.5)); // Nous demandons à ce que tous les marqueurs soient visibles, et ajoutons un padding (pad(0.5)) pour que les marqueurs ne soient pas coupés
             }
