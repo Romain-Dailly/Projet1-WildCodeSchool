@@ -1,3 +1,9 @@
+/*charte graphique page web*/
+footer
+{
+	background-color:#e7ebf1;
+}
+
 /*scrollUp*/
 #scrollUp
 {
@@ -20,7 +26,7 @@ opacity: 0.5;
 /* Overlay */
 .container {
 	position: relative;
-	width: 50%;
+	width: 70%;
   }
   
   .image {
@@ -55,9 +61,14 @@ opacity: 0.5;
 	background-color:black;
   }
   
-  .container:hover .overlay {
+  .container .nuit:hover .overlay {
 	opacity: 1;
-  }
+	}
+
+	.container .jour:hover .overlay {
+	opacity: 1;
+	}
+	
   
   .text {
 	color: white;

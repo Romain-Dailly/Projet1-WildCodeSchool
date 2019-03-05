@@ -25,7 +25,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownDecouvrir" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
               Découvrir Nantes
             </a>
@@ -35,7 +35,7 @@
             </div>
           </li>
           <li class="nav-item active dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownGalerie" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
               Galerie Photos
             </a>
@@ -48,8 +48,16 @@
           </li>
           </li>
         </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
       </div>
-    </nav>
+    </nav>   
+  </header>
+
+  <!-- carousel -->
+  <section>
     <div id="carouselHomepage" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#picture1" data-slide-to="0" class="active"></li>
@@ -58,13 +66,13 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="pics/castel_day.jpg" class="d-block w-100" alt="castel_day">
+          <img src="pics/rectangle_1137x640/castel_day_1137x640.jpg" class="d-block w-100" alt="castel_day">
         </div>
         <div class="carousel-item">
-          <img src="pics/rings_hangar.jpg" class="d-block w-100" alt="rings_hangar">
+          <img src="pics/rectangle_1137x640/bouffay_night_1137x640.jpg" class="d-block w-100" alt="rings_hangar">
         </div>
         <div class="carousel-item">
-          <img src="pics/elephant_carousel.jpg" class="d-block w-100" alt="elephant_carousel">
+          <img src="pics/rectangle_1137x640/elephant_carousel_1137x640.jpg" class="d-block w-100" alt="elephant_carousel">
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -76,8 +84,7 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-
-  </header>
+  </section>
 
   <!-- sommaire -->
   <section>
@@ -85,24 +92,26 @@
       <h1>Découvrez Nantes autrement !</h1>
       <div class="card-deck">
         <div class="row">
-          <div class="col-sm-6">
-            <div class="card jour">
-              <img src="pics/bouffay_day carré 640x640.jpg" class="card-img-top" alt="...">
+          <div class="col-md-6 col-sm-12">
+            <div class="card jour mb-4">
+                <a class="lienOverlay" href="day_trip.html"><img src ="pics/square_640x640/bouffay_day_640x640.jpg" class="card-img-top" alt="...">
               <div class="overlay">
                   <div class="text"><img src="logo/sun 64px.png"><br />de jour...</div>
               </div>
+            </a>
               <div class="card-body">
                 <h5 class="card-title">de jour...</h5>
                 <p class="card-text">Virtute aedificio studiorum amare tam vestitu non rebus eo nihil.</p>
               </div>
             </div>
           </div>
-          <div class="col-sm-6">
-            <div class="card nuit">
-              <img src="pics/water_mirror_night carré 640x640.jpg" class="card-img-top" alt="...">
+          <div class="col-md-6 col-sm-12">
+            <div class="card nuit mb-4">
+                <a class="lienOverlay" href="night_trip.html"><img src="pics/square_640x640/bouffay_night_640x640.jpg" class="card-img-top" alt="...">
               <div class="overlay">
                   <div class="text"><img src="logo/lune jaune 64x64.png"><br />de nuit...</div>
               </div>
+              </a>
               <div class="card-body">
                 <h5 class="card-title">de nuit... </h5>
                 <p class="card-text">Virtute aedificio studiorum amare tam vestitu non rebus eo nihil.</p>
@@ -117,21 +126,29 @@
       <h1>Découvrez Nantes en photo !</h1>
       <div class="card-deck">
         <div class="row">
-          <div class="col-sm-6">
-            <div class="card">
-              <img src="pics/talensac carré 640x640.jpg" class="card-img-top" alt="talensac">
+          <div class="col-md-6 col-sm-12">
+            <div class="card jour mb-4">
+                <a class="lienOverlay" href="day_gallery.html"><img src="pics/square_640x640/talensac_carré_640x640.jpg" class="card-img-top" alt="talensac">
+              <div class="overlay">
+                <div class="text"><img src="logo/sun 64px.png"><br />de jour...</div>
+            </div>
+            </a>
               <div class="card-body">
-                <h5 class="card-title">le jour</h5>
-                <p class="card-text">oalfnepa peruopamjr Previouspmrjz.</p>
+                <h5 class="card-title">de jour...</h5>
+                <p class="card-text">Virtute aedificio studiorum amare tam vestitu non rebus eo nihil.</p>
               </div>
             </div>
           </div>
-          <div class="col-sm-6">
-            <div class="card">
-              <img src="pics/water_mirror_night carré 640x640.jpg" class="card-img-top" alt="...">
+          <div class="col-md-6 col-sm-12">
+            <div class="card nuit mb-4">
+                <a class="lienOverlay" href="night_trip.html"><img src="pics/square_640x640/water_mirror_night_carré_640x640.jpg" class="card-img-top" alt="...">
+              <div class="overlay">
+                <div class="text"><img src="logo/lune jaune 64x64.png"><br />de nuit...</div>
+            </div>
+            </a>
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <h5 class="card-title">de nuit...</h5>
+                <p class="card-text">Virtute aedificio studiorum amare tam vestitu non rebus eo nihil.</p>
               </div>
             </div>
           </div>
@@ -191,21 +208,17 @@
 
       </div>
       <!-- Grid row-->
-      <hr class="rgba-white-light" style="margin: 0 15%;">
+      <hr class="rgba-white-light">
 
       <!-- Grid row-->
       <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
 
         <!-- Grid column -->
 
-        <div class="container">
+        <div class="container-fluid">
 
           <!-- Grid row-->
-          <div class="row">
-
-            <!-- Grid column -->
-            <div class="col-md-12 py-5">
-              <div class="mb-5 flex-center">
+          <div class="row mt-4 justify-content-center">
 
                 <!-- Facebook -->
                 <a class="fb-ic">
@@ -248,7 +261,6 @@
 
         </div>
         <!-- Footer Links -->
-
         <!-- Copyright -->
         <div class="footer-copyright text-center py-3">© 2018 Copyright: Aurélia, Baptiste, Béatrice, Romain</div>
         <!-- Copyright -->
