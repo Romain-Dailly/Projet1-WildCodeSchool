@@ -1,1 +1,13 @@
-
+ol li:hover{
+    border: 4px blue solid;
+    height:150%;
+    weight:150%;
+    margin-top: 1em;
+    cursor:pointer;
+}
+.container-item img{
+    max-height:70vh;
+}
+.container-item img{
+    background-size: cover;
+}
