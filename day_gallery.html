@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="day_gallery.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <link rel="stylesheet" href="day_gallery.css">
   <script src="day_gallery.js"></script>
   <meta charset="utf-8">
   <title>Vis ma ville</title>
 </head>
 
 <body>
-    <div id="scrollUp">
-        <a href="#top"><img src="logo/to_top.png" title="Menu"/></a>
-    </div>
+  <div id="scrollUp">
+    <a href="#top"><img src="logo/to_top.png" title="Menu" /></a>
+  </div>
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="index.html">Vis ma ville</a>
@@ -25,8 +26,8 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownDecouvrir" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownDecouvrir" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Découvrir Nantes
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -49,120 +50,120 @@
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
       </div>
-    </nav>   
+    </nav>
   </header>
   <section class="pb-5">
-    <div class="row d-flex justify-content-center mt-5" id="chateau"><h2>Chateau-Bouffay</h2></div>
+    <div class="row d-flex justify-content-center mt-5" id="chateau">
+      <h2>Chateau-Bouffay</h2>
+    </div>
     <div class="container-fluid col-10 offset-1 mt-1">
       <div id="carousel-thumb" class="carousel slide carousel-fade">
-          <!--Slides-->
-          <div class="carousel-inner rounded-top w-100" role="listbox">
-            <div class="carousel-item active">
-              <img class="d-block w-100 " src="pics/rectangle_1137x640/bouffay_day_1137x640.jpg" alt="First slide">
-              <div class="carousel-caption d-block">
-                <a href="#"><img class="h-25" src="logo/marker_day_64px.png" alt="localisation" title="Localisation"></a>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="pics/rectangle_1137x640/castel_day_1137x640.jpg" alt="Second slide">
-              <div class="carousel-caption d-block">
-                <a href="#"><img class="h-25" src="logo/marker_day_64px.png" alt="localisation" title="Localisation"></a>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="pics/rectangle_1137x640/cathedral_1137x640.jpg" alt="Third slide">
-              <div class="carousel-caption d-block">
-                <a href="#"><img class="h-25" src="logo/marker_day_64px.png" alt="localisation" title="Localisation"></a>
-              </div>
-            </div>
-            <div class="carousel-caption d-md-block w-25 mx-auto h-25">
-                <h3>Histoire et patrimoine</h3>
+        <!--Slides-->
+        <div class="carousel-inner rounded-top w-100" role="listbox">
+          <div class="carousel-item active">
+            <img class="d-block w-100 " src="pics/rectangle_1137x640/bouffay_day_1137x640.jpg" alt="First slide">
+            <div class="carousel-caption d-block">
+              <a href="map.html"><img class="h-25" src="logo/marker_day_64px.png" alt="localisation" title="Localisation"></a>
             </div>
           </div>
-          <!--/.Slides-->
-          <!--Controls-->
+          <div class="carousel-item">
+            <img class="d-block w-100" src="pics/rectangle_1137x640/castel_day_1137x640.jpg" alt="Second slide">
+            <div class="carousel-caption d-block">
+              <a href="map.html"><img class="h-25" src="logo/marker_day_64px.png" alt="localisation" title="Localisation"></a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="pics/rectangle_1137x640/cathedral_1137x640.jpg" alt="Third slide">
+            <div class="carousel-caption d-block">
+              <a href="map.html"><img class="h-25" src="logo/marker_day_64px.png" alt="localisation" title="Localisation"></a>
+            </div>
+          </div>
+          <div class="carousel-caption d-md-block w-25 mx-auto h-25">
+            <h3>Histoire et patrimoine</h3>
+          </div>
+        </div>
+        <!--/.Slides-->
+        <!--Controls-->
       </div>
       <ol class="carousel-indicators m-0 position-relative h-100 mt-2">
-          <li data-target="#carousel-thumb" data-slide-to="0" class="active h-100 w-100 m-0"> <img class="d-block w-100" src="pics/rectangle_1137x640/bouffay_day_1137x640.jpg"
-              class="img-fluid"></li>
-          <li data-target="#carousel-thumb" data-slide-to="1" class="h-100 w-100 m-0"><img class="d-block w-100" src="pics/rectangle_1137x640/castel_day_1137x640.jpg"
-              class="img-fluid"></li>
-          <li data-target="#carousel-thumb" data-slide-to="2" class="h-100 w-100 m-0"><img class="d-block w-100" src="pics/rectangle_1137x640/cathedral_1137x640.jpg"
-              class="img-fluid"></li>
-        </ol>
+        <li data-target="#carousel-thumb" data-slide-to="0" class="active h-100 w-100 m-0"> <img class="d-block w-100 img-fluid"
+            src="pics/rectangle_1137x640/bouffay_day_1137x640.jpg" alt="im1" ></li>
+        <li data-target="#carousel-thumb" data-slide-to="1" class="h-100 w-100 m-0"><img class="d-block w-100 img-fluid"
+            src="pics/rectangle_1137x640/castel_day_1137x640.jpg" alt="im2"  ></li>
+        <li data-target="#carousel-thumb" data-slide-to="2" class="h-100 w-100 m-0"><img class="d-block w-100 img-fluid"
+            src="pics/rectangle_1137x640/cathedral_1137x640.jpg"  alt="im3" ></li>
+      </ol>
     </div>
-    <div class="row d-flex justify-content-center mt-5" id="bretagnetalensac"><h2>Bretagne-Talensac</h2></div>
+    <div class="row d-flex justify-content-center mt-5" id="bretagnetalensac">
+      <h2>Bretagne-Talensac</h2>
+    </div>
     <div class="container-fluid col-10 offset-1 mt-1">
       <div id="carousel-thumb-2" class="carousel slide carousel-thumbnails">
-          <!--Slides-->
-          <div class="carousel-inner rounded-top" role="listbox">
-            <div class="carousel-item active">
-              <img class="d-block w-100" src="pics/rectangle_1137x640/bretagne_tower_1137x640.jpg" alt="First slide">
-              <div class="carousel-caption d-block">
-                <a href="#"><img class="h-25" src="logo/marker_day_64px.png" alt="localisation" title="Localisation"></a>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="pics/rectangle_1137x640/nid_1137x640.jpg" alt="Second slide">
-              <div class="carousel-caption d-block">
-                <a href="#"><img class="h-25" src="logo/marker_day_64px.png" alt="localisation" title="Localisation"></a>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="pics/rectangle_1137x640/talensac_1137x640.jpg" alt="Third slide">
-              <div class="carousel-caption d-block">
-                <a href="#"><img class="h-25" src="logo/marker_day_64px.png" alt="localisation" title="Localisation"></a>
-              </div>
-            </div>
-            <div class="carousel-caption d-md-block w-25 mx-auto h-100 pt-5">
-              <h3>Contemporain</h3>
-                <p></p>
+        <!--Slides-->
+        <div class="carousel-inner rounded-top" role="listbox">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="pics/rectangle_1137x640/bretagne_tower_1137x640.jpg" alt="First slide">
+            <div class="carousel-caption d-block">
+              <a href="map.html"><img class="h-25" src="logo/marker_day_64px.png" alt="localisation" title="Localisation"></a>
             </div>
           </div>
-          <!--/.Slides-->
-          <!--Controls-->
+          <div class="carousel-item">
+            <img class="d-block w-100" src="pics/rectangle_1137x640/nid_1137x640.jpg" alt="Second slide">
+            <div class="carousel-caption d-block">
+              <a href="map.html"><img class="h-25" src="logo/marker_day_64px.png" alt="localisation" title="Localisation"></a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="pics/rectangle_1137x640/talensac_1137x640.jpg" alt="Third slide">
+            <div class="carousel-caption d-block">
+              <a href="map.html"><img class="h-25" src="logo/marker_day_64px.png" alt="localisation" title="Localisation"></a>
+            </div>
+          </div>
+          <div class="carousel-caption d-md-block w-25 mx-auto h-100 pt-5">
+            <h3>Contemporain</h3>
+            <p></p>
+          </div>
+        </div>
+        <!--/.Slides-->
+        <!--Controls-->
       </div>
-        <ol class="carousel-indicators m-0 position-relative h-100 mt-2">
-          <li data-target="#carousel-thumb-2" data-slide-to="0" class="active h-100 w-100 m-0"> <img class="d-block w-100" src="pics/rectangle_1137x640/bretagne_tower_1137x640.jpg"
-              class="img-fluid"></li>
-          <li data-target="#carousel-thumb-2" data-slide-to="1" class="h-100 w-100 m-0"><img class="d-block w-100" src="pics/rectangle_1137x640/nid_1137x640.jpg"
-              class="img-fluid"></li>
-          <li data-target="#carousel-thumb-2" data-slide-to="2" class="h-100 w-100 m-0"><img class="d-block w-100" src="pics/rectangle_1137x640/talensac_1137x640.jpg"
-              class="img-fluid"></li>
-        </ol>
+      <ol class="carousel-indicators m-0 position-relative h-100 mt-2">
+        <li data-target="#carousel-thumb-2" data-slide-to="0" class="active h-100 w-100 m-0"> <img class="img-fluid d-block w-100"
+            src="pics/rectangle_1137x640/bretagne_tower_1137x640.jpg" alt="im1" ></li>
+        <li data-target="#carousel-thumb-2" data-slide-to="1" class="h-100 w-100 m-0"><img class="img-fluid d-block w-100"
+            src="pics/rectangle_1137x640/nid_1137x640.jpg" alt="im2"></li>
+        <li data-target="#carousel-thumb-2" data-slide-to="2" class="h-100 w-100 m-0"><img class="img-fluid d-block w-100"
+            src="pics/rectangle_1137x640/talensac_1137x640.jpg" alt="im3"></li>
+      </ol>
     </div>
-    <div class="row d-flex justify-content-center mt-5" id="iledenantes"><h2>Ile de Nantes</h2></div>
+    <div class="row d-flex justify-content-center mt-5" id="iledenantes">
+      <h2>Ile de Nantes</h2>
+    </div>
     <div class="container-fluid col-10 offset-1 mt-1">
       <div id="carousel-thumb-3" class="carousel slide carousel-thumbnails">
         <!--Slides-->
         <div class="carousel-inner rounded-top" role="listbox">
           <div class="carousel-item active">
-            <img class="d-block w-100"
-              src="pics/rectangle_1137x640/elephant_carousel_1137x640.jpg"
-              alt="First slide">
-              <div class="carousel-caption d-block">
-                <a href="#"><img class="h-25" src="logo/marker_day_64px.png" alt="localisation" title="Localisation"></a>
-              </div>
+            <img class="d-block w-100" src="pics/rectangle_1137x640/elephant_carousel_1137x640.jpg" alt="First slide">
+            <div class="carousel-caption d-block">
+              <a href="map.html"><img class="h-25" src="logo/marker_day_64px.png" alt="localisation" title="Localisation"></a>
+            </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100"
-              src="pics/rectangle_1137x640/la_cantine_1137x640.jpg"
-              alt="Second slide">
-              <div class="carousel-caption d-block">
-                <a href="#"><img class="h-25" src="logo/marker_day_64px.png" alt="localisation" title="Localisation"></a>
-              </div>
+            <img class="d-block w-100" src="pics/rectangle_1137x640/la_cantine_1137x640.jpg" alt="Second slide">
+            <div class="carousel-caption d-block">
+              <a href="map.html"><img class="h-25" src="logo/marker_day_64px.png" alt="localisation" title="Localisation"></a>
+            </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100"
-              src="pics/rectangle_1137x640/transfert_1137x640.jpg"
-              alt="Third slide">
-              <div class="carousel-caption d-block">
-                <a href="#"><img class="h-25" src="logo/marker_day_64px.png" alt="localisation" title="Localisation"></a>
-              </div>
+            <img class="d-block w-100" src="pics/rectangle_1137x640/transfert_1137x640.jpg" alt="Third slide">
+            <div class="carousel-caption d-block">
+              <a href="map.html"><img class="h-25" src="logo/marker_day_64px.png" alt="localisation" title="Localisation"></a>
+            </div>
           </div>
           <div class="carousel-caption d-md-block w-25 mx-auto h-100 pt-5">
             <h3>Culturel</h3>
@@ -172,21 +173,18 @@
         <!--/.Slides-->
         <!--Controls-->
       </div>
-      <div clas="container imgs h-100"></div>
-        <ol class="carousel-indicators m-0 position-relative  mt-2">
-          <li data-target="#carousel-thumb-3" data-slide-to="0" class="active h-100 w-100 m-0"> <img class="d-block w-100"
-              src="pics/rectangle_1137x640/elephant_carousel_1137x640.jpg"
-              class="img-fluid"></li>
-          <li data-target="#carousel-thumb-3" data-slide-to="1" class="h-100 w-100 m-0"><img class="d-block w-100"
-              src="pics/rectangle_1137x640/la_cantine_1137x640.jpg"
-              class="img-fluid"></li>
-          <li data-target="#carousel-thumb-3" data-slide-to="2" class="h-100 w-100 m-0"><img class="d-block w-100"
-              src="pics/rectangle_1137x640/transfert_1137x640.jpg"
-              class="img-fluid"></li>
-        </ol>
-      </div>
+      <ol class="carousel-indicators m-0 position-relative  mt-2">
+        <li data-target="#carousel-thumb-3" data-slide-to="0" class="active h-100 w-100 m-0"> <img class="img-fluid d-block w-100"
+            src="pics/rectangle_1137x640/elephant_carousel_1137x640.jpg" alt="im1"></li>
+        <li data-target="#carousel-thumb-3" data-slide-to="1" class="h-100 w-100 m-0"><img class="img-fluid d-block w-100"
+            src="pics/rectangle_1137x640/la_cantine_1137x640.jpg" alt="im2"></li>
+        <li data-target="#carousel-thumb-3" data-slide-to="2" class="h-100 w-100 m-0"><img class="img-fluid d-block w-100"
+            src="pics/rectangle_1137x640/transfert_1137x640.jpg" alt="im3"></li>
+      </ol>
     </div>
-    <div class="row d-flex justify-content-center mt-5" id="graslinroyale"><h2>Graslin à Place Royale</h2></div>
+    <div class="row d-flex justify-content-center mt-5" id="graslinroyale">
+      <h2>Graslin à Place Royale</h2>
+    </div>
     <div class="container-fluid col-10 offset-1 mt-1">
       <div id="carousel-thumb-4" class="carousel slide carousel-thumbnails">
         <!--Slides-->
@@ -194,39 +192,41 @@
           <div class="carousel-item active">
             <img class="d-block w-100" src="pics/rectangle_1137x640/graslin_day_1137x640.jpeg" alt="First slide">
             <div class="carousel-caption d-block">
-              <a href="#"><img class="h-25" src="logo/marker_day_64px.png" alt="localisation" title="Localisation"></a>
+              <a href="map.html"><img class="h-25" src="logo/marker_day_64px.png" alt="localisation" title="Localisation"></a>
             </div>
           </div>
           <div class="carousel-item">
             <img class="d-block w-100" src="pics/rectangle_1137x640/place_royale_1137x640.jpg" alt="Second slide">
             <div class="carousel-caption d-block">
-              <a href="#"><img class="h-25" src="logo/marker_day_64px.png" alt="localisation" title="Localisation"></a>
+              <a href="map.html"><img class="h-25" src="logo/marker_day_64px.png" alt="localisation" title="Localisation"></a>
             </div>
           </div>
           <div class="carousel-item">
             <img class="d-block w-100" src="pics/rectangle_1137x640/pommeraye_1137x640.jpg" alt="Third slide">
             <div class="carousel-caption d-block">
-              <a href="#"><img class="h-25" src="logo/marker_day_64px.png" alt="localisation" title="Localisation"></a>
+              <a href="map.html"><img class="h-25" src="logo/marker_day_64px.png" alt="localisation" title="Localisation"></a>
             </div>
           </div>
           <div class="carousel-caption d-md-block w-25 mx-auto h-100 pt-5">
             <h3>Histoire et culture</h3>
-              <p></p>
+            <p></p>
           </div>
         </div>
         <!--/.Slides-->
         <!--Controls-->
       </div>
-        <ol class="carousel-indicators m-0 position-relative h-100 mt-2 ">
-            <li data-target="#carousel-thumb-4" data-slide-to="0" class="active h-100 w-100 m-0"> <img class="d-block w-100" src="pics/rectangle_1137x640/graslin_day_1137x640.jpeg"
-                class="img-fluid"></li>
-            <li data-target="#carousel-thumb-4" data-slide-to="1" class="h-100 w-100 m-0"><img class="d-block w-100" src="pics/rectangle_1137x640/place_royale_1137x640.jpg"
-                class="img-fluid"></li>
-            <li data-target="#carousel-thumb-4" data-slide-to="2" class="h-100 w-100 m-0"><img class="d-block w-100" src="pics/rectangle_1137x640/pommeraye_1137x640.jpg"
-                class="img-fluid"></li>
-          </ol>
+      <ol class="carousel-indicators m-0 position-relative h-100 mt-2 ">
+        <li data-target="#carousel-thumb-4" data-slide-to="0" class="active h-100 w-100 m-0"> <img class="img-fluid d-block w-100"
+            src="pics/rectangle_1137x640/graslin_day_1137x640.jpeg" alt="im1"></li>
+        <li data-target="#carousel-thumb-4" data-slide-to="1" class="h-100 w-100 m-0"><img class="img-fluid d-block w-100"
+            src="pics/rectangle_1137x640/place_royale_1137x640.jpg" alt="im2"></li>
+        <li data-target="#carousel-thumb-4" data-slide-to="2" class="h-100 w-100 m-0"><img class="img-fluid d-block w-100"
+            src="pics/rectangle_1137x640/pommeraye_1137x640.jpg" alt="im3"></li>
+      </ol>
     </div>
-    <div class="row d-flex justify-content-center mt-5" id="trentemoult"><h2>Trentemoult</h2></div>
+    <div class="row d-flex justify-content-center mt-5" id="trentemoult">
+      <h2>Trentemoult</h2>
+    </div>
     <div class="container-fluid col-10 offset-1 mt-1">
       <div id="carousel-thumb-5" class="carousel slide carousel-thumbnails">
         <!--Slides-->
@@ -234,149 +234,150 @@
           <div class="carousel-item active">
             <img class="d-block w-100" src="pics/rectangle_1137x640/trentemoult_1_1137x640.jpg" alt="First slide">
             <div class="carousel-caption d-block">
-              <a href="#"><img class="h-25" src="logo/marker_day_64px.png" alt="localisation" title="Localisation"></a>
+              <a href="map.html"><img class="h-25" src="logo/marker_day_64px.png" alt="localisation" title="Localisation"></a>
             </div>
           </div>
           <div class="carousel-item">
             <img class="d-block w-100" src="pics/rectangle_1137x640/trentemoult_2_1137x640.jpg" alt="Second slide">
             <div class="carousel-caption d-block">
-              <a href="#"><img class="h-25" src="logo/marker_day_64px.png" alt="localisation" title="Localisation"></a>
+              <a href="map.html"><img class="h-25" src="logo/marker_day_64px.png" alt="localisation" title="Localisation"></a>
             </div>
           </div>
           <div class="carousel-item">
             <img class="d-block w-100" src="pics/rectangle_1137x640/trentemoult_3_1137x640.jpg" alt="Third slide">
             <div class="carousel-caption d-block">
-              <a href="#"><img class="h-25" src="logo/marker_day_64px.png" alt="localisation" title="Localisation"></a>
+              <a href="map.html"><img class="h-25" src="logo/marker_day_64px.png" alt="localisation" title="Localisation"></a>
             </div>
           </div>
           <div class="carousel-caption d-md-block w-25 mx-auto h-100 pt-5">
             <h3>Calme et sereinité</h3>
-              <p></p>
+            <p></p>
           </div>
         </div>
         <!--/.Slides-->
         <!--Controls-->
       </div>
-        <ol class="carousel-indicators m-0 position-relative h-100 mt-2">
-          <li data-target="#carousel-thumb-5" data-slide-to="0" class="active h-100 w-100 m-0"> <img class="d-block w-100" src="pics/rectangle_1137x640/trentemoult_1_1137x640.jpg"
-              class="img-fluid"></li>
-          <li data-target="#carousel-thumb-5" data-slide-to="1" class="h-100 w-100 m-0"><img class="d-block w-100" src="pics/rectangle_1137x640/trentemoult_2_1137x640.jpg"
-              class="img-fluid"></li>
-          <li data-target="#carousel-thumb-5" data-slide-to="2" class="h-100 w-100 m-0"><img class="d-block w-100" src="pics/rectangle_1137x640/trentemoult_3_1137x640.jpg"
-              class="img-fluid"></li>
-        </ol>
+      <ol class="carousel-indicators m-0 position-relative h-100 mt-2">
+        <li data-target="#carousel-thumb-5" data-slide-to="0" class="active h-100 w-100 m-0"> <img class="img-fluid d-block w-100"
+            src="pics/rectangle_1137x640/trentemoult_1_1137x640.jpg" alt="im1"></li>
+        <li data-target="#carousel-thumb-5" data-slide-to="1" class="h-100 w-100 m-0"><img class="img-fluid d-block w-100"
+            src="pics/rectangle_1137x640/trentemoult_2_1137x640.jpg" alt="im2"></li>
+        <li data-target="#carousel-thumb-5" data-slide-to="2" class="h-100 w-100 m-0"><img class="img-fluid d-block w-100"
+            src="pics/rectangle_1137x640/trentemoult_3_1137x640.jpg" alt="im3"></li>
+      </ol>
     </div>
-    <div class="row max-auto d-flex justify-content-center mt-5 mb-5"><a href="night_gallery.html"><img src="logo/lune_64px.png" alt="lune"></a></div>
+    <div class="row max-auto d-flex justify-content-center mt-5 mb-5"><a href="night_gallery.html"><img
+          src="logo/lune_64px.png" alt="lune"></a></div>
   </section>
   <!-- Footer -->
   <footer class="page-footer font-small indigo">
 
-      <!-- Footer Links -->
-      <div class="container">
-  
-        <!-- Grid row-->
-        <div class="row text-center d-flex justify-content-center pt-5 mb-3">
-  
-          <!-- Grid column -->
-          <div class="col-md-2 mb-3">
-            <h6 class="text-uppercase font-weight-bold">
-              <a href="day_trip.html">Découvrir Nantes de jour</a>
-            </h6>
-          </div>
-          <!-- Grid column -->
-  
-          <!-- Grid column -->
-          <div class="col-md-2 mb-3">
-            <h6 class="text-uppercase font-weight-bold">
-              <a href="night_trip.html">Découvrir Nantes de nuit</a>
-            </h6>
-          </div>
-          <!-- Grid column -->
-  
-          <!-- Grid column -->
-          <div class="col-md-2 mb-3">
-            <h6 class="text-uppercase font-weight-bold">
-              <a href="day_gallery.html">Galerie photos de jour</a>
-            </h6>
-          </div>
-          <!-- Grid column -->
-  
-          <!-- Grid column -->
-          <div class="col-md-2 mb-3">
-            <h6 class="text-uppercase font-weight-bold">
-              <a href="night_gallery.html">Galerie photos de nuit</a>
-            </h6>
-          </div>
-          <!-- Grid column -->
-  
-          <!-- Grid column -->
-          <div class="col-md-2 mb-3">
-            <h6 class="text-uppercase font-weight-bold">
-              <a href="#!">Contact</a>
-            </h6>
-          </div>
-          <!-- Grid column -->
-  
+    <!-- Footer Links -->
+    <div class="container">
+
+      <!-- Grid row-->
+      <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+
+        <!-- Grid column -->
+        <div class="col-md-2 mb-3">
+          <h6 class="text-uppercase font-weight-bold">
+            <a href="day_trip.html">Découvrir Nantes de jour</a>
+          </h6>
         </div>
-        <!-- Grid row-->
-        <hr class="rgba-white-light">
-  
-        <!-- Grid row-->
-        <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
-  
-          <!-- Grid column -->
-  
-          <div class="container-fluid">
-  
-            <!-- Grid row-->
-            <div class="row mt-4 justify-content-center">
-  
-                  <!-- Facebook -->
-                  <a class="fb-ic">
-                    <i class="fab fa-facebook-f fa-lg white-text mr-3">
-                      <a href="https://www.facebook.com/nantes.fr" title="Public page Nantes facebook"
-                        target="_blank"><img src="logo/facebook BD.png" alt="logo facebook"></a> </i>
-                  </a>
-                  <!-- Twitter -->
-                  <a class="tw-ic">
-                    <i class="fab fa-twitter fa-lg white-text mr-3">
-                      <a href="https://twitter.com/nantesfr?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
-                        title="Public page Nantes twitter" target="_blank"><img src="logo/twitter_BD.png BD.png"
-                          alt="logo twitter"></a> </i>
-                  </a>
-                  <!--Instagram-->
-                  <a class="ins-ic">
-                    <i class="fab fa-instagram fa-lg white-text mr-3">
-                      <a href="https://www.instagram.com/nantesfr/?hl=fr" title="Public page Nantes instagram"
-                        target="_blank"><img src="logo/instagram_BD.png" alt="logo instagram"></a> </i>
-                  </a>
-                  <!--ville de Nantes-->
-                  <a class="nantes-ic">
-                    <i class="villeNantes fa-lg white-text mr-3">
-                      <a href="https://www.nantes.fr/home.html" title="nantes page" target="_blank"><img
-                          src="logo/Nantes_logo BD.png" alt="logo ville Nantes"></a> </i>
-                  </a>
-                  <!--tan-->
-                  <a class="tan-ic">
-                    <i class="tan fa-lg white-text mr-3">
-                      <a href="https://www.tan.fr" title="tan page" target="_blank"><img src="logo/tan_BD.png"
-                          alt="logo tan"></a> </i>
-                  </a>
-                </div>
-  
-              </div>
-              <!-- Grid column -->
-  
-            </div>
-            <!-- Grid row-->
-  
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 mb-3">
+          <h6 class="text-uppercase font-weight-bold">
+            <a href="night_trip.html">Découvrir Nantes de nuit</a>
+          </h6>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 mb-3">
+          <h6 class="text-uppercase font-weight-bold">
+            <a href="day_gallery.html">Galerie photos de jour</a>
+          </h6>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 mb-3">
+          <h6 class="text-uppercase font-weight-bold">
+            <a href="night_gallery.html">Galerie photos de nuit</a>
+          </h6>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 mb-3">
+          <h6 class="text-uppercase font-weight-bold">
+            <a href="#!">Contact</a>
+          </h6>
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row-->
+      <hr class="rgba-white-light">
+
+      <!-- Grid row-->
+      <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
+
+        <!-- Grid column -->
+
+        <div class="container-fluid">
+
+          <!-- Grid row-->
+          <div class="row mt-4 justify-content-center">
+
+            <!-- Facebook -->
+            <a class="fb-ic">
+              <i class="fab fa-facebook-f fa-lg white-text mr-3">
+                <a href="https://www.facebook.com/nantes.fr" title="Public page Nantes facebook" target="_blank"><img
+                    src="logo/facebook BD.png" alt="logo facebook"></a> </i>
+            </a>
+            <!-- Twitter -->
+            <a class="tw-ic">
+              <i class="fab fa-twitter fa-lg white-text mr-3">
+                <a href="https://twitter.com/nantesfr?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                  title="Public page Nantes twitter" target="_blank"><img src="logo/twitter_BD.png BD.png"
+                    alt="logo twitter"></a> </i>
+            </a>
+            <!--Instagram-->
+            <a class="ins-ic">
+              <i class="fab fa-instagram fa-lg white-text mr-3">
+                <a href="https://www.instagram.com/nantesfr/?hl=fr" title="Public page Nantes instagram"
+                  target="_blank"><img src="logo/instagram_BD.png" alt="logo instagram"></a> </i>
+            </a>
+            <!--ville de Nantes-->
+            <a class="nantes-ic">
+              <i class="villeNantes fa-lg white-text mr-3">
+                <a href="https://www.nantes.fr/home.html" title="nantes page" target="_blank"><img
+                    src="logo/Nantes_logo BD.png" alt="logo ville Nantes"></a> </i>
+            </a>
+            <!--tan-->
+            <a class="tan-ic">
+              <i class="tan fa-lg white-text mr-3">
+                <a href="https://www.tan.fr" title="tan page" target="_blank"><img src="logo/tan_BD.png"
+                    alt="logo tan"></a> </i>
+            </a>
           </div>
-          <!-- Footer Links -->
-          <!-- Copyright -->
-          <div class="footer-copyright text-center py-3">© 2018 Copyright: Aurélia, Baptiste, Béatrice, Romain</div>
-          <!-- Copyright -->
-  
-    </footer>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row-->
+
+    </div>
+    <!-- Footer Links -->
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2018 Copyright: Aurélia, Baptiste, Béatrice, Romain</div>
+    <!-- Copyright -->
+
+  </footer>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
