@@ -52,6 +52,10 @@ section a:hover{
     left:0;
 
 }
+.carousel-item img{
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
 .carousel-caption a img{
     bottom:0;
     right:0;
