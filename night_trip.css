@@ -29,6 +29,9 @@ body .background {
     border-radius: 6px;
 }
 
+img { 
+    border-radius: 6px;
+}
 
 .toThe {
   margin-top: 1rem;

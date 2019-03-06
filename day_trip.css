@@ -23,6 +23,9 @@ body .background {
     
 }
 
+img {
+    border-radius: 6px;
+}
 .background img {
     border-radius: 6px;
 }
