@@ -1,7 +1,7 @@
 /*charte graphique index*/
 footer
 {
-	background-color:#e7ebf1;
+	background-color:#ffffff;
 }
 
 /*scrollUp*/
@@ -13,9 +13,10 @@ margin-left: 95%;
 opacity: 0.5;
 }
 /*fin index*/
-section{
-    background-color: black;
-}
+body {
+    height: 100%; /* Used to enable scrolling */
+    background: linear-gradient(to bottom, #000000 25%,#ffffff 85%);
+  }
 h2{
     color:rgb(229, 255, 0);
 }

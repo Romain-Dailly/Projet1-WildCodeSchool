@@ -1,7 +1,7 @@
 /*charte graphique index*/
 footer
 {
-	background-color:#e7ebf1;
+	background-color:#000000;
 }
 
 /*scrollUp*/
@@ -13,9 +13,19 @@ margin-left: 95%;
 opacity: 0.5;
 }
 /*fin index*/
+@media screen and (max-width : 700px){
+    h3{
+        font-size:1em;
+    }
+}
+body {
+    height: 100%; /* Used to enable scrolling */
+    background: linear-gradient(to bottom, #ffffff 0%,#000000 85%);
+  }
 body h3{
     color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0.411);
+    text-align:top;
 }
 ol li:hover{
     border: 2px rgb(0, 0, 100) solid;
@@ -25,5 +35,30 @@ ol li:hover{
 ol li{
     border:2px blue solid;
 }	
+section a{
+    font-size:2em;
+}
+section a:hover{
+    cursor:pointer;
+}
+.carousel-item .carousel-caption{
+    display:flex;
+    text-align:right;
+    margin-top:42%;
+    padding-right:5%;
+    height:60%;
+    width:100%;
+    right:0;
+    left:0;
+
+}
+.carousel-caption a img{
+    bottom:0;
+    right:0;
+}
+.carousel-caption{
+        top:0;
+}
+
 
 
