@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
     <style>
         @import url('https://fonts.googleapis.com/css?family=Roboto');
         </style>
@@ -11,42 +12,53 @@
     <title>Vis ma ville</title>
 </head>
 <body>
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Vis ma ville</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Découvrir Nantes
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#NantesDay">Jour</a>
-                <a class="dropdown-item" href="#NantesNight">Nuit</a>
-              </div>
-            </li>
-            <li class="nav-item active dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Gallerie Photos
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="index.html">Vis ma ville</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownDecouvrir" role="button"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Découvrir Nantes
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#NantesPicturesDay">Jour</a>
-                  <a class="dropdown-item" href="#NantesPicturesNight">Nuit</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownDecouvrir">
+                  <a class="dropdown-item" href="day_trip.html">Jour</a>
+                  <a class="dropdown-item" href="night_trip.html">Nuit</a>
                 </div>
-            </li>
-          </ul>
-        </div>
-      </nav>
-</header>
+              </li>
+              <li class="nav-item active dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownGalerie" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Galerie Photos
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownGalerie">
+                  <a class="dropdown-item" href="day_gallery.html">Jour</a>
+                  <a class="dropdown-item" href="night_gallery.html">Nuit</a>
+                </div>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" id="findField" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="FindNext ();">Search</button>
+            </form>
+          </div>
+        </nav>
+      </header>
 <section class="img-responsive d-flex justify-content-center">
   <div class="bg-text"><a href="#">Nantes</a></div>
 	<img class="img-responsive center-block bottom" src="pics/graslinday.png">
 	<img class="top" src="pics/graslinnight.png">
 </section>
+
+<video controls="" autoplay="" name="media"><source src="https://www.sport-histoire.fr/Sources/Chants/Hymne%20La%20Beaujoire.mp3" type="audio/mpeg"></video>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

@@ -1,7 +1,19 @@
 /*charte graphique page web*/
+
+nav {
+    background-color: #babebf;
+}
 footer
 {
-	background-color:#e7ebf1;
+	background-color:#babebf;
+}
+
+body {
+    background-color: #6b6a66;
+}
+
+h2 {
+    margin-top: 3%;
 }
 
 /*scrollUp*/
@@ -46,6 +58,7 @@ img {
 
 .cardtent {
    width: 20%;
+   color: #babebf;
 }
 /* BOUTON */ 
 

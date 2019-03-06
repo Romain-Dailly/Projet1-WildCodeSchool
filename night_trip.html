@@ -8,6 +8,10 @@
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="night_trip.css">
+	<link rel="stylesheet" href="style.css">
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Roboto');
+    </style>
 </head>
 
 <body>
@@ -15,310 +19,225 @@
 		<a href="#top"><img src="logo/to_top.png" title="Menu" /></a>
 	</div>
 	<header>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<a class="navbar-brand" href="index.html">Vis ma ville</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-			 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownDecouvrir" role="button" data-toggle="dropdown"
-						 aria-haspopup="true" aria-expanded="false">
-							Découvrir Nantes
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="day_trip.html">Jour</a>
-							<a class="dropdown-item" href="night_trip.html">Nuit</a>
-						</div>
-					</li>
-					<li class="nav-item active dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownGalerie" role="button" data-toggle="dropdown"
-						 aria-haspopup="true" aria-expanded="false">
-							Galerie Photos
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="day_gallery.html">Jour</a>
-							<a class="dropdown-item" href="night_gallery.html">Nuit</a>
-						</div>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Contact</a>
-					</li>
-					</li>
-				</ul>
-				<form class="form-inline my-2 my-lg-0">
-					<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-				</form>
-			</div>
-		</nav>
-	</header>
-
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<a class="navbar-brand" href="index.html">Vis ma ville</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
 	
-			<div class="container container1">
-					<div class="row">
-						<div class="background d-flex justify-content-center img-responsive col-xs-12">
-							<img src="mapnantesnuit.png" alt="map nantes nuit">
-						</div>
-					</div>
-		<!-- BOUTON QUI FAIT DES VAGUES-->		
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownDecouvrir" role="button"
+								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Découvrir Nantes
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdownDecouvrir">
+								<a class="dropdown-item" href="day_trip.html">Jour</a>
+								<a class="dropdown-item" href="night_trip.html">Nuit</a>
+							</div>
+						</li>
+						<li class="nav-item active dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownGalerie" role="button" data-toggle="dropdown"
+								aria-haspopup="true" aria-expanded="false">
+								Galerie Photos
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdownGalerie">
+								<a class="dropdown-item" href="day_gallery.html">Jour</a>
+								<a class="dropdown-item" href="night_gallery.html">Nuit</a>
+							</div>
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">Contact</a>
+						</li>
+					</ul>
+					<form class="form-inline my-2 my-lg-0">
+						<input class="form-control mr-sm-2" type="search" id="findField" placeholder="Search" aria-label="Search">
+						<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="FindNext ();">Search</button>
+					</form>
+				</div>
+			</nav>
+		</header>
+
+		<h2 class="d-flex justify-content-center">Découvrir Nantes de jour</h2>
+	<div class="container container1">
+		<div class="row">
+			<div class="background d-flex justify-content-center img-responsive col-xs-12">
+				<img src="mapnantesnuit.png" alt="map nantes nuit">
+			</div>
+		</div>
+		<!-- BOUTON QUI FAIT DES VAGUES-->
 		<div class="emplacement">
 			<a href="#castle">
 				<div class="spinner-grow text-danger" role="status">
 				</div>
-				</a>
+			</a>
 		</div>
 		<!-- BOUTON QUI FAIT DES VAGUES-->
 		<div class="emplacement1">
 			<a href="#hab">
 				<div class="spinner-grow text-danger" role="status">
-				
+
 				</div>
-				</a>
+			</a>
 		</div>
 
 		<!-- BOUTON QUI FAIT DES VAGUES-->
 		<div class="emplacement2">
 			<a href="#graslin">
 				<div class="spinner-grow text-danger" role="status">
-				
+
 				</div>
-				</a>
+			</a>
 		</div>
 
 		<!-- BOUTON QUI FAIT DES VAGUES-->
 		<div class="emplacement3">
 			<a href="#feydeau">
 				<div class="spinner-grow text-danger" role="status">
-				
+
 				</div>
-				</a>
+			</a>
 		</div>
 
 	</div>
-	
-	<!-- CARDS-->
-<!--
-	<div class="container container1">
-		<div class="row">
-		<div class="card cardTent col-md-6 bg-dark text-white">
-			<img src="pics/rectangle_1137x640/bouffay_night_1137x640.jpg" class="card-img imgCard" alt="Castel_night">
-			<div class="card-img-overlay">
-				<h5 class="card-title">Quartier Bouffay</h5>
-				<p class="card-text">Lorem Ipsum</p>
-			</div>
-		</div>
-		
-			<div class="card cardTent col-md-6 bg-dark text-white">
-				<img src="pics/rectangle_1137x640/bouffay_night_1137x640.jpg" class="card-img imgCard" alt="Castel_night">
-				<div class="card-img-overlay">
-					<h5 class="card-title">Quartier Bouffay</h5>
-					<p class="card-text">Lorem Ipsum</p>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="card cardTent bg-dark col-md-6 text-white">
-				<img src="pics/rectangle_1137x640/bouffay_night_1137x640.jpg" class="card-img imgCard" alt="Castel_night">
-				<div class="card-img-overlay">
-					<h5 class="card-title">Quartier Bouffay</h5>
-					<p class="card-text">Lorem Ipsum</p>
-				</div>
-			</div>
-
-			<div class="card cardTent bg-dark col-md-6 text-white">
-				<img src="pics/rectangle_1137x640/bouffay_night_1137x640.jpg" class="card-img imgCard" alt="Castel_night">
-				<div class="card-img-overlay">
-					<h5 class="card-title">Quartier Bouffay</h5>
-					<p class="card-text">Lorem Ipsum</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	-->
 
 	<div class="container">
-			<div class="card cardTent flex-row flex-wrap" id="castle">
-					<div class="row no-gutters">
-							<div class="col-xs-6">
-									<img src="pics/rectangle_1137x640/bouffay_night_1137x640.jpg" class="imgCard img-fluid" alt="bouffay">
-							</div>
-							<div class="col-xs-4 toThe">
-									<div class="card-block px-2">
-											<h4 class="card-title">Quartier Bouffay</h4>
-											<p class="card-text">Lorem Ipsum</p>
-											<a href="#" class="btn btn-success">BUTTON</a>
-									</div>
-							</div>
+		<div class="card cardTent flex-row flex-wrap" id="castle">
+			<div class="row no-gutters">
+				<div class="col-xs-6">
+					<img src="pics/rectangle_1137x640/bouffay_night_1137x640.jpg" class="imgCard img-fluid" alt="bouffay">
+				</div>
+				<div class="col-xs-4 toThe">
+					<div class="card-block px-2">
+						<h4 class="card-title">Quartier Bouffay</h4>
+						<p class="card-text">Lorem Ipsum</p>
+						<a href="night_gallery.html?#bouffay_night" class="btn btn-dark">Galerie photos</a>
 					</div>
+				</div>
 			</div>
-			<br>
-			<div class="card cardTent flex-row flex-wrap" id="hab">
-					<div class="row no-gutters">
-							<div class="col-xs-6">
-									<img src="pics/rectangle_1137x640/rings_hangar_1137x640.jpg" class="imgCard img-fluid" alt="hab">
-							</div>
-							<div class="col-xs-4 toThe">
-									<div class="card-block px-2">
-											<h4 class="card-title">Hangar à Bananes</h4>
-											<p class="card-text">Lorem Ipsum</p>
-											<a href="#" class="btn btn-success">BUTTON</a>
-									</div>
-							</div>
+		</div>
+		<br>
+		<div class="card cardTent flex-row flex-wrap" id="hab">
+			<div class="row no-gutters">
+				<div class="col-xs-6">
+					<img src="pics/rectangle_1137x640/rings_hangar_1137x640.jpg" class="imgCard img-fluid" alt="hab">
+				</div>
+				<div class="col-xs-4 toThe">
+					<div class="card-block px-2">
+						<h4 class="card-title">Hangar à Bananes</h4>
+						<p class="card-text">Lorem Ipsum</p>
+						<a href="night_gallery.html?#hab" class="btn btn-dark">Galerie photos</a>
 					</div>
+				</div>
 			</div>
+		</div>
 	</div>
 	<br>
 	<div class="container">
-			<div class="card cardTent flex-row flex-wrap" id="graslin">
-					<div class="row no-gutters">
-							<div class="col-xs-6">
-									<img src="pics/rectangle_1137x640/graslin_night_1137x640.jpg" class="imgCard img-fluid" alt="graslin">
-							</div>
-							<div class="col-xs-4 toThe">
-									<div class="card-block px-2">
-											<h4 class="card-title">Quartier Graslin</h4>
-											<p class="card-text">Lorem Ipsum</p>
-											<a href="#" class="btn btn-success">BUTTON</a>
-									</div>
-							</div>
+		<div class="card cardTent flex-row flex-wrap" id="graslin">
+			<div class="row no-gutters">
+				<div class="col-xs-6">
+					<img src="pics/rectangle_1137x640/graslin_night_1137x640.jpg" class="imgCard img-fluid" alt="graslin">
+				</div>
+				<div class="col-xs-4 toThe">
+					<div class="card-block px-2">
+						<h4 class="card-title">Quartier Graslin</h4>
+						<p class="card-text">Lorem Ipsum</p>
+						<a href="night_gallery.html?#graslin_night" class="btn btn-dark">Galerie photos</a>
 					</div>
+				</div>
 			</div>
-			<br>
-			<div class="card cardTent flex-row flex-wrap" id="feydeau">
-					<div class="row no-gutters">
-							<div class="col-xs-6">
-									<img src="pics/rectangle_1137x640/le_chat_noir_1137x640.jpg" class="imgCard img-fluid" alt="hab">
-							</div>
-							<div class="col-xs-4 toThe">
-									<div class="card-block px-2">
-											<h4 class="card-title">Quartier Feydeau</h4>
-											<p class="card-text">Lorem Ipsum</p>
-											<a href="#" class="btn btn-success">BUTTON</a>
-									</div>
-							</div>
+		</div>
+		<br>
+		<div class="card cardTent flex-row flex-wrap" id="feydeau">
+			<div class="row no-gutters">
+				<div class="col-xs-6">
+					<img src="pics/rectangle_1137x640/le_chat_noir_1137x640.jpg" class="imgCard img-fluid" alt="hab">
+				</div>
+				<div class="col-xs-4 toThe">
+					<div class="card-block px-2">
+						<h4 class="card-title">Quartier Feydeau</h4>
+						<p class="card-text">Lorem Ipsum</p>
+						<a href="night_gallery.html?#feydeau" class="btn btn-dark">Galerie photos</a>
 					</div>
+				</div>
 			</div>
-			<br>
+		</div>
+		<br>
 	</div>
 
 
 
-	<!-- Footer -->
 	<footer class="page-footer font-small indigo">
-
-		<!-- Footer Links -->
-		<div class="container">
-
-			<!-- Grid row-->
-			<div class="row text-center d-flex justify-content-center pt-5 mb-3">
-
-				<!-- Grid column -->
-				<div class="col-md-2 mb-3">
-					<h6 class="text-uppercase font-weight-bold">
-						<a href="#!">About us</a>
-					</h6>
-				</div>
-				<!-- Grid column -->
-
-				<!-- Grid column -->
-				<div class="col-md-2 mb-3">
-					<h6 class="text-uppercase font-weight-bold">
-						<a href="#!">Products</a>
-					</h6>
-				</div>
-				<!-- Grid column -->
-
-				<!-- Grid column -->
-				<div class="col-md-2 mb-3">
-					<h6 class="text-uppercase font-weight-bold">
-						<a href="#!">Awards</a>
-					</h6>
-				</div>
-				<!-- Grid column -->
-
-				<!-- Grid column -->
-				<div class="col-md-2 mb-3">
-					<h6 class="text-uppercase font-weight-bold">
-						<a href="#!">Help</a>
-					</h6>
-				</div>
-				<!-- Grid column -->
-
-				<!-- Grid column -->
-				<div class="col-md-2 mb-3">
-					<h6 class="text-uppercase font-weight-bold">
-						<a href="#!">Contact</a>
-					</h6>
-				</div>
-				<!-- Grid column -->
-
-			</div>
-			<!-- Grid row-->
-			<hr class="rgba-white-light" style="margin: 0 15%;">
-
-			<!-- Grid row-->
-			<div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
-
-				<!-- Grid column -->
-				<div class="col-md-8 col-12 mt-5">
-					<p style="line-height: 1.7rem">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-						doloremque laudantium.</p>
-				</div>
-				<!-- Grid column -->
-
-				<div class="container">
-
-					<!-- Grid row-->
-					<div class="row">
-
-						<!-- Grid column -->
-						<div class="col-md-12 py-5">
-							<div class="mb-5 flex-center">
-
-								<!-- Facebook -->
-								<a class="fb-ic">
-									<i class="fab fa-facebook-f fa-lg white-text mr-3">
-										<a href="https://www.facebook.com/nantes.fr" title="Public page Nantes facebook" target="_blank"><img src="logo/facebook BD.png"
-											 alt="logo facebook"></a> </i>
-								</a>
-								<!-- Twitter -->
-								<a class="tw-ic">
-									<i class="fab fa-twitter fa-lg white-text mr-3">
-										<a href="https://twitter.com/nantesfr?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" title="Public page Nantes twitter"
-										 target="_blank"><img src="logo/twitter BD.png" alt="logo twitter"></a> </i>
-								</a>
-								<!--Instagram-->
-								<a class="ins-ic">
-									<i class="fab fa-instagram fa-lg white-text mr-3">
-										<a href="https://www.instagram.com/nantesfr/?hl=fr" title="Public page Nantes instagram" target="_blank"><img
-											 src="logo/instagram BD.png" alt="logo instagram"></a> </i>
-								</a>
-								<!--ville de Nantes-->
-								<a class="nantes-ic">
-									<i class="villeNantes fa-lg white-text">
-										<a href="https://www.nantes.fr/home.html" title="nantes page" target="_blank"><img src="logo/Nantes_logo BD.png"
-											 alt="logo ville Nantes"></a> </i>
-								</a>
-
-							</div>
-
-						</div>
-						<!-- Grid column -->
-
+			<div class="container">
+				<div class="row text-center d-flex justify-content-center pt-5 mb-3">
+					<div class="col-lg-2 col-md-6 mb-3">
+						<h6 class="text-uppercase font-weight-bold">
+							<a href="day_trip.html">Découvrir Nantes de jour</a>
+						</h6>
 					</div>
-					<!-- Grid row-->
 
-				</div>
-				<!-- Footer Links -->
+					<div class="col-lg-2 col-md-6 mb-3">
+						<h6 class="text-uppercase font-weight-bold">
+							<a href="night_trip.html">Découvrir Nantes de nuit</a>
+						</h6>
+					</div>
 
-				<!-- Copyright -->
-				<div class="footer-copyright text-center py-3">© 2018 Copyright:
-					<a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+					<div class="col-lg-2 col-md-6 mb-3">
+						<h6 class="text-uppercase font-weight-bold">
+							<a href="day_gallery.html">Galerie photos de jour</a>
+						</h6>
+					</div>
+
+					<div class="col-lg-2 col-md-6 mb-3">
+						<h6 class="text-uppercase font-weight-bold">
+							<a href="night_gallery.html">Galerie photos de nuit</a>
+						</h6>
+					</div>
+
+					<div class="col-lg-2 col-md-6 mb-3">
+						<h6 class="text-uppercase font-weight-bold">
+							<a href="contact.html">Contact</a>
+						</h6>
+					</div>
 				</div>
-				<!-- Copyright -->
+			</div>
+				<hr class="rgba-white-light">
+
+					<div class="container-fluid">
+						<div class="row d-flex justify-content-center">
+									<div class="col-xs-2 mr-3">
+											<a href="https://www.facebook.com/nantes.fr" title="Public page Nantes facebook"
+												target="_blank"><img src="logo/facebook_BD.png" alt="logo facebook">
+										</a>
+									</div>
+									<div class="col-xs-2 mr-3">
+											<a href="https://twitter.com/nantesfr?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+												title="Public page Nantes twitter" target="_blank"><img src="logo/twitter_BD.png"
+													alt="logo twitter">
+											</a>
+									</div>
+									<div class="col-xs-2 mr-3">
+											<a href="https://www.instagram.com/nantesfr/?hl=fr" title="Public page Nantes instagram"
+												target="_blank"><img src="logo/instagram_BD.png" alt="logo instagram">
+											</a>
+									</div>
+									<div class="col-xs-2 mr-3">
+											<a href="https://www.nantes.fr/home.html" title="nantes page" target="_blank"><img
+													src="logo/Nantes_logo_BD.png" alt="logo ville Nantes">
+											</a>
+									</div>
+									<div class="col-xs-2">
+											<a href="https://www.tan.fr" title="tan page" target="_blank"><img src="logo/tan_BD.png"
+													alt="logo tan">
+											</a>
+									</div>
+								</div>
+							</div>
+					
+					<div class="footer-copyright text-center py-3">© 2018 Copyright: Aurélia, Baptiste, Béatrice, Romain</div>
+		</footer>
 
 	</footer>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
