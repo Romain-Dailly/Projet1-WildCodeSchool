@@ -28,12 +28,12 @@ body h3{
     text-align:top;
 }
 ol li:hover{
-    border: 2px rgb(0, 0, 100) solid;
+    border: 2px rgb(255, 255, 255) solid;
     margin-bottom: 2px;
     cursor:pointer;
 }
 ol li{
-    border:2px blue solid;
+    border:2px rgb(169, 169, 172) solid;
 }	
 section a{
     font-size:2em;
@@ -43,6 +43,7 @@ section a:hover{
 }
 .carousel-item .carousel-caption{
     display:flex;
+    visibility: hidden;
     text-align:right;
     margin-top:42%;
     padding-right:5%;
@@ -51,6 +52,9 @@ section a:hover{
     right:0;
     left:0;
 
+}
+.carousel-item:hover > .carousel-caption{
+    visibility:visible;
 }
 .carousel-item img{
     border-top-left-radius: 2px;
