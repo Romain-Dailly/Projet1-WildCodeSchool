@@ -48,10 +48,10 @@ jQuery(function(){
  
             if (supported) {
                 if (!found) {
-                    alert ("The following text was not found:\n" + str);
+                    alert ("Nous n'avons pas trouvé ce mot:\n" + str);
                 }
             }
             else {
-                alert ("Your browser does not support this example!");
+                alert ("Merci de retaper un mot !");
             }
         }
