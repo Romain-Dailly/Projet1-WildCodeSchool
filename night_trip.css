@@ -25,6 +25,11 @@ body .background {
     width: 100%;   
 }
 
+.background img {
+    border-radius: 6px;
+}
+
+
 .toThe {
   margin-top: 1rem;
   margin-bottom: 1rem;

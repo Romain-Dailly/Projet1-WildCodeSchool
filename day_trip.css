@@ -20,6 +20,11 @@ body .background {
     height: auto;
     margin-top: 5rem;
     opacity: 0.7;
+    
+}
+
+.background img {
+    border-radius: 6px;
 }
 
 .imgCard {
@@ -71,8 +76,8 @@ body .background {
 
 .emplacement1 {
     position: absolute;
-    top: 54%;
-    left: 22%;
+    top: 67%;
+    left: 24%;
     z-index: 2;
 }
 
@@ -89,6 +94,13 @@ body .background {
     left: 46%;
     z-index: 2;
 }
+
+.emplacement4 {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    z-index: 2;
+}
 }
 
 
@@ -103,8 +115,8 @@ body .background {
     
     .emplacement1 {
         position: absolute;
-        top: 55%;
-        left: 6%;
+        top: 69%;
+        left: 12%;
         z-index: 2;
     }
     
@@ -121,4 +133,10 @@ body .background {
         left: 42%;
         z-index: 2;
     } 
+    .emplacement4 {
+        position: absolute;
+        top: 71%;
+        left: -12%;
+        z-index: 2;
+    }
   }
