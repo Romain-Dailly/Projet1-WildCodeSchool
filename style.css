@@ -3,8 +3,9 @@ body, html {
 	}
 	
 nav {
-	height: 5rem;
 	font-size: 1.5rem;
+	padding-top: 2.5rem;
+	padding-bottom: 2.5rem;
 }
 
 .navbar-brand {
@@ -19,8 +20,17 @@ nav {
 	opacity: 0.5;
 }
 
+<<<<<<< HEAD
 h1 {
+=======
+h2, h1 {
+>>>>>>> b5e487ebc7d578c25b6b31f5812a08080fffc84e
 	margin-top: 3%;
 	font-weight: bold;
 	text-align: center;
 }
+.navbar-collapse{
+	z-index:10000;
+}
+
+

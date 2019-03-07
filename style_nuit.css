@@ -8,5 +8,14 @@ footer
 
 body {
     background-color: #6b6a66;
-    
+}
+
+.form-inline button{
+	color: #6b6a66;
+	border-color: #6b6a66;
+}
+.form-inline button:hover{
+	color: black;
+	background-color: #babebf;
+	border-color: #babebf;
 }
