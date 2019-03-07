@@ -18,15 +18,15 @@
                 "<a href='day_gallery.html#trente'>Trentemoult": { "lat": 47.1952, "lon": -1.581199999999967 }
             };
             var tripNight = {
-                "<a href='day_gallery.html#bouffay_night'>Quartier Bouffay": { "lat": 47.2149, "lon": -1.5529599999999846 },
-                "<a href='day_gallery.html#bouffay_night'>Château<br\>Miroir d'eau": { "lat": 47.2165, "lon": -1.5506000000000313 },
-                "<a href='day_gallery.html#hab'>Hangar à bananes<br\>le Ferailleur<br\>Rondpoint": { "lat": 47.2034, "lon": -1.5718699999999899 },
-                "<a href='day_gallery.html#hab'>Bar le Rondpoint": { "lat": 47.2034, "lon": -1.5718699999999899 },
-                "<a href='day_gallery.html#graslin_night'>Cinéma le Katorza": { "lat": 47.2136, "lon": -1.562530000000038 },
-                "<a href='day_gallery.html#graslin_night'>Rue Scribe": { "lat": 47.214, "lon": -1.561869999999999 },
-                "<a href='day_gallery.html#feydeau'>Bar Au chat noir": { "lat":47.2173, "lon": -1.5534 },
-                "<a href='day_gallery.html#feydeau'>Bar le Berthom": { "lat": 47.1936, "lon": -1.5300399999999854 },
-                "<a href='day_gallery.html#feydeau'>Bar le Tiki": { "lat": 47.2125, "lon": -1.55628999999999 }
+                "<a href='night_gallery.html#bouffay_night'>Quartier Bouffay": { "lat": 47.2149, "lon": -1.5529599999999846 },
+                "<a href='night_gallery.html#bouffay_night'>Château<br\>Miroir d'eau": { "lat": 47.2165, "lon": -1.5506000000000313 },
+                "<a href='night_gallery.html#hab'>Hangar à bananes<br\>le Ferailleur<br\>Rondpoint": { "lat": 47.2034, "lon": -1.5718699999999899 },
+                "<a href='night_gallery.html#hab'>Bar le Rondpoint": { "lat": 47.2034, "lon": -1.5718699999999899 },
+                "<a href='night_gallery.html#graslin_night'>Cinéma le Katorza": { "lat": 47.2136, "lon": -1.562530000000038 },
+                "<a href='night_gallery.html#graslin_night'>Rue Scribe": { "lat": 47.214, "lon": -1.561869999999999 },
+                "<a href='night_gallery.html#feydeau'>Bar Au chat noir": { "lat":47.2173, "lon": -1.5534 },
+                "<a href='night_gallery.html#feydeau'>Bar le Berthom": { "lat": 47.1936, "lon": -1.5300399999999854 },
+                "<a href='night_gallery.html#feydeau'>Bar le Tiki": { "lat": 47.2125, "lon": -1.55628999999999 }
             };
 // Fonction d'initialisation de la carte
 			function initMap() {
