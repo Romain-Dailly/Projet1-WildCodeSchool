@@ -3,8 +3,9 @@ body, html {
 	}
 	
 nav {
-	height: 5rem;
 	font-size: 1.5rem;
+	padding-top: 2.5rem;
+	padding-bottom: 2.5rem;
 }
 
 .navbar-brand {
@@ -22,4 +23,7 @@ nav {
 h2 {
 	margin-top: 3%;
 	font-weight: bold;
+}
+.navbar-collapse{
+	z-index:10000;
 }

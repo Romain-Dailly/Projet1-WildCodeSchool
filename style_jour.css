@@ -13,3 +13,12 @@ body {
 h2 {
     margin-top: 3%;
 }
+.form-inline button{
+	color: #babebf;
+	border-color: #babebf;
+}
+.form-inline button:hover{
+	color: black;
+	background-color: #babebf;
+	border-color: #babebf;
+}
