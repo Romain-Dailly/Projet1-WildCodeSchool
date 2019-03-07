@@ -69,12 +69,12 @@ section a:hover{
         top:0;
 }
 /* test scroll fade*/
-section {
+.row {
     opacity: 0;
     transition: opacity 1s;
   }
   
-section.visible { 
+.row.visible { 
     opacity: 1;
   }
 
