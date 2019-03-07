@@ -55,3 +55,7 @@ input:focus {
 	background-color: #CCC;
 	border-radius: 4px;
 }
+
+#myForm {
+	margin-top: 30px;
+}

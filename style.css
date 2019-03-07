@@ -24,3 +24,13 @@ h2 {
 	font-weight: bold;
 	text-align: center;
 }
+
+h6 a
+{
+	color:#333333;
+}
+
+h6 a:hover
+{
+	color:#333333;
+}
