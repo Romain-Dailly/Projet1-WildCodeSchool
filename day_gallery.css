@@ -68,6 +68,13 @@ section a:hover{
 .carousel-caption{
         top:0;
 }
-
-
+/* test scroll fade*/
+section {
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  
+section.visible { 
+    opacity: 1;
+  }
 
