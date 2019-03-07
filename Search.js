@@ -1,14 +1,4 @@
-jQuery(function(){
-    $(function () {
-    $(window).scroll(function () { //Fonction appelée quand on descend la page
-    if ($(this).scrollTop() > 200 ) {  // Quand on est à 200pixels du haut de page,
-    $('#scrollUp').css('right','10px'); // Replace à 10pixels de la droite l'image
-    } else { 
-    $('#scrollUp').removeAttr( 'style' ); // Enlève les attributs CSS affectés par javascript
-    }
-    });
-    });
-    });
+
 
 
         function FindNext () {
@@ -48,10 +38,10 @@ jQuery(function(){
  
             if (supported) {
                 if (!found) {
-                    alert ("The following text was not found:\n" + str);
+                    alert ("Nous n'avons pas trouvé ce mot:\n" + str);
                 }
             }
             else {
-                alert ("Your browser does not support this example!");
+                alert ("Merci de retaper un mot !");
             }
         }

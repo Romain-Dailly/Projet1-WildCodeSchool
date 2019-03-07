@@ -1,119 +1,9 @@
-/*charte graphique page web*/
-footer
-{
-	background-color:#e7ebf1;
-}
-
-/*scrollUp*/
-#scrollUp
-{
-position: fixed;
-bottom : 10px;
-margin-left: 95%;
-opacity: 0.5;
-}
-
-/*Carousel*/
-.carousel-item {
-	max-height: 60vh;
-}
-
-.carousel-item img {
-	background-size: cover ;
-}
-
-/*Découvrir Nantes*/
-/* Overlay */
-.container {
-	position: relative;
-	width: 70%;
-  }
-  
-  .image {
-	display: block;
-	width: 100%;
-	height: auto;
-  }
-  
-  .jour .overlay {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: 100%;
-	width: 100%;
-	opacity: 0;
-	transition: .5s ease;
-	background-color:#ffa500;
-  }
-
-  .nuit .overlay {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: 100%;
-	width: 100%;
-	opacity: 0;
-	transition: .5s ease;
-	background-color:black;
-  }
-  
-  .container .nuit:hover .overlay {
-	opacity: 1;
-	}
-
-	.container .jour:hover .overlay {
-	opacity: 1;
-	}
-	
-  
-  .text {
-	color: white;
-	font-weight: bold;
-	font-size: 30px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	text-align: center;
-  }
-body, html {
-  height: 100%;
-  margin: 0;
-  font-family: 'Roboto', Arial, sans-serif;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-nav {
-  background-color: #6b6a66;
-}
-footer
-{
-background-color:#6b6a66;
-}
-
-body {
-  background-color: #babebf;
-}
-
-video {
-  visibility: hidden;
-}
-
 
 /* Position text in the middle of the page/image */
 .bg-text {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-  color: white !important;
+  color: white;
   font-weight: bold;
   font-size: 30px;
   border: 10px solid #f1f1f1;
@@ -135,13 +25,13 @@ video {
 
 /* 2eme essai pour l'animation */
 
-section {
-  position: relative;
+section .homepage {
+	position: relative;
   max-width: 100%;
 }
 
-section img {
-  position: absolute;
+section .homepage img {
+	position: absolute;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -172,3 +62,76 @@ section img {
 		opacity: 0;
 	}
 }
+
+/*menu*/
+section .menu{
+	margin-top:60%;
+}
+
+/*Découvrir Nantes*/
+/* Overlay */
+.container {
+	position: relative;
+	width: 70%;
+  }
+  
+  .image {
+	display: block;
+	width: 100%;
+	height: auto;
+  }
+  
+  .jour .overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	transition: .5s ease;
+	background-color:#ffa500;
+	opacity: 0;
+  }
+
+  .nuit .overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color:black;
+  }
+  
+  .container .nuit:hover .overlay {
+	opacity: 0.9;
+	}
+
+	.container .jour:hover .overlay {
+	opacity: 0.9;
+	}
+	
+  
+  .text {
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+  }
+
+	@media screen and (min-width: 200px) and (max-width: 640px) {
+		.bg-text {
+			border: 6px solid #f1f1f1;
+			width: 200px;
+		}
+	}
