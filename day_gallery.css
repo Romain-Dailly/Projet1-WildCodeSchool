@@ -13,6 +13,7 @@ margin-left: 95%;
 opacity: 0.5;
 }
 /*fin index*/
+
 @media screen and (max-width : 700px){
     h3{
         font-size:1em;
