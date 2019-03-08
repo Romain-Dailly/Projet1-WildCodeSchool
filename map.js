@@ -72,8 +72,21 @@
                 var group = new L.featureGroup(markers); // Nous créons le groupe des marqueurs pour adapter le zoom
 	            macarte.fitBounds(group.getBounds().pad(0.5)); // Nous demandons à ce que tous les marqueurs soient visibles, et ajoutons un padding (pad(0.5)) pour que les marqueurs ne soient pas coupés
             }
+            
 			window.onload = function() {
 				// Fonction d'initialisation qui s'exécute lorsque le DOM est chargé
 				initMap(); 
 			};
 
+// /*check box*/
+// $( ".checkbox" ).click(function(Event) {
+    
+//     layerClicked = window[Event.target.value];
+//     console.log(layerClicked)
+//         if (macarte.hasLayer(layerClicked)) {
+//             macarte.removeLayer(layerClicked);
+//         }
+//         else{
+//             macarte.addLayer(layerClicked);
+//         } ;
+// });
