@@ -69,12 +69,12 @@ section a:hover{
         top:0;
 }
 /* test scroll fade*/
-.luso{
+.scroll-fade{
     opacity: 0;
     transition: opacity 4s;
   }
   
-.luso.visible { 
+.scroll-fade.visible { 
     opacity: 1;
   }
 
