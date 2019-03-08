@@ -2,10 +2,27 @@
 #map{ /* la carte DOIT avoir une hauteur sinon elle n'apparaît pas */
     height:70vh;
 }
+/*check box*/
+/* .overlay{
+	top:25%;
+	left: 100px;
+	background-color: #073856;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.overlay label{
+	color: white;
+	margin:5px 0px;
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+} */
+/*fin check box*/
 
 .form{
     background-color:#9e9d97;
-    border-radius: 10px;
+	border-radius: 10px;
 }
 
 .form_col {
