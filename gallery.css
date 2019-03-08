@@ -200,9 +200,9 @@ img.hover-shadow {
 /* Scroll fade moon and sun*/
 .luso{
 	opacity: 0;
-	transition: opacity 4s;
+	transition: opacity 2s;
 	}
-	.luso.visible { 
+.luso.visible { 
 	opacity: 1;
 	}
 	
