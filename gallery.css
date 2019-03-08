@@ -166,6 +166,9 @@ img.hover-shadow {
 	opacity:0;
 	transition:opacity 2s;
 }
+.carousel-caption img:hover{
+	opacity:1;
+}
 @media only screen and (min-width: 950px) {
 	.bloc2{
 		display: block;
