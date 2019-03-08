@@ -63,8 +63,8 @@ img {
 
 .emplacement1 {
     position: absolute;
-    top: 67%;
-    left: 24%;
+    top: 57%;
+    left: 20%;
     z-index: 2;
 }
 
@@ -77,8 +77,8 @@ img {
 
 .emplacement3 {
     position: absolute;
-    top: 28%;
-    left: 46%;
+    top: 15%;
+    left: 40%;
     z-index: 2;
 }
 
