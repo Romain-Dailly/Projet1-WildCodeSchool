@@ -1,5 +1,4 @@
 /*charte graphique page web*/
-
 body .background {
 	width: 100%;
 	margin-bottom: 10rem;
@@ -49,34 +48,34 @@ img {
 } 
 
 @media screen and (min-width: 990px) {
-.emplacement {
-	position: absolute;
-	top: 19%;
-	left: 52%;
-	z-index: 2;
-}
+	.emplacement {
+		position: absolute;
+		top: 19%;
+		left: 52%;
+		z-index: 2;
+	}
 
-.emplacement1 {
-	position: absolute;
-	top: 54%;
-	left: 22%;
-	z-index: 2;
-}
+	.emplacement1 {
+		position: absolute;
+		top: 54%;
+		left: 22%;
+		z-index: 2;
+	}
 
-.emplacement2 {
-	position: absolute;
-	top: 28%;
-	left: 34%;
-	z-index: 2;
-}
+	.emplacement2 {
+		position: absolute;
+		top: 28%;
+		left: 34%;
+		z-index: 2;
+	}
 
-.emplacement3 {
-	position: absolute;
-	top: 28%;
-	left: 46%;
-	z-index: 2;
+	.emplacement3 {
+		position: absolute;
+		top: 28%;
+		left: 46%;
+		z-index: 2;
+	}
 }
-
 
 
 @media screen and (max-width: 990px) {
