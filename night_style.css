@@ -3,28 +3,28 @@ nav {
 }
 footer
 {
-	background-color:#babebf;
+  background-color:#babebf;
 }
 
 body {
     background-color: #6b6a66;
 }
 .form-inline button{
-	color: #6b6a66;
-	border-color: #6b6a66;
+  color: #6b6a66;
+  border-color: #6b6a66;
 }
 .form-inline button:hover{
-	color: black;
-	background-color: #6b6a66;
-	border-color: #6b6a66;
+  color: black;
+  background-color: #6b6a66;
+  border-color: #6b6a66;
 }
 .form-inline button:active{
     color:black;
     background-color:white;
 }
 .navbar-collapse{
-	background-color: #babebf; 
+  background-color: #babebf; 
 }
 h1, h2 {
-	color:white;
+  color:white;
 }
