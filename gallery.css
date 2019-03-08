@@ -169,9 +169,19 @@ img.hover-shadow {
 	.carousel-caption img{
 	height:100%;
 	width:auto;
-	opacity:0.8;
 	}
-
+/* fade hover marqueur vers map*/
+.mySlides:hover ~ .carousel-caption img{
+	opacity:0.8;
+	transition:opacity 2s
+}	
+.modal-content .carousel-caption img{
+	opacity:0;
+	transition:opacity 2s;
+}
+.carousel-caption img:hover{
+	opacity:0.8;
+}
 @media only screen and (min-width: 950px) {
 	.bloc2{
 		display: block;
@@ -218,4 +228,3 @@ img.hover-shadow {
 .luso.visible { 
 	opacity: 1;
 	}
-	

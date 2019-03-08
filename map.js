@@ -51,9 +51,9 @@ function initMap() {
 			iconAnchor: [25, 50],
 			popupAnchor: [-3, -50],
 		});
-		var marker = L.marker([tripDay[ville].lat, tripDay[ville].lon], { icon: myIconDay }).addTo(macarte);
-		marker.bindPopup(ville); // Nous ajoutons la popup. A noter que son contenu (ici la variable ville) peut être du HTML
-		markers.push(marker); // Nous ajoutons le marqueur à la liste des marqueurs
+		var marker1 = L.marker([tripDay[ville].lat, tripDay[ville].lon], { icon: myIconDay }).addTo(macarte);
+		marker1.bindPopup(ville); // Nous ajoutons la popup. A noter que son contenu (ici la variable ville) peut être du HTML
+		markers.push(marker1); // Nous ajoutons le marqueur à la liste des marqueurs
 	}
 
 	for (ville in tripNight) {
@@ -63,9 +63,9 @@ function initMap() {
 			iconAnchor: [25, 50],
 			popupAnchor: [-3, -50],
 		});
-		var marker = L.marker([tripNight[ville].lat, tripNight[ville].lon], { icon: myIconNight }).addTo(macarte);
-		marker.bindPopup(ville);
-		markers.push(marker); // Nous ajoutons le marqueur tripNight à la liste des marqueurs
+		var marker2 = L.marker([tripNight[ville].lat, tripNight[ville].lon], { icon: myIconNight }).addTo(macarte);
+		marker2.bindPopup(ville);
+		markers.push(marker2); // Nous ajoutons le marqueur tripNight à la liste des marqueurs
 	}
 	// Nous ajoutons un marqueur
 
@@ -80,9 +80,8 @@ window.onload = function () {
 
 // /*check box*/
 $(".checkbox").click(function (Event) {
-
 	layerClicked = window[Event.target.value];
-	console.log(layerClicked)
+	console.log(Event.target.value)
 	if (macarte.hasLayer(layerClicked)) {
 		macarte.removeLayer(layerClicked);
 	}
