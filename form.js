@@ -1,12 +1,12 @@
 // Fonction de désactivation de l'affichage des "tooltips"
 function deactivateTooltips() {
 
-	var tooltips = document.querySelectorAll('.tooltip'),
-		tooltipsLength = tooltips.length;
+		var tooltips = document.querySelectorAll('.tooltip'),
+				tooltipsLength = tooltips.length;
 
-	for (var i = 0; i < tooltipsLength; i++) {
-		tooltips[i].style.display = 'none';
-	}
+		for (var i = 0; i < tooltipsLength; i++) {
+				tooltips[i].style.display = 'none';
+		}
 
 }
 

@@ -1,5 +1,4 @@
 /*charte graphique page web*/
-
 body .background {
 	width: 100%;
 	margin-bottom: 10rem;
@@ -21,9 +20,9 @@ img {
 }
 
 .toThe {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin-left: 1rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	margin-left: 1rem;
 }
 
 /*body .imgCard{
@@ -32,8 +31,8 @@ img {
 }*/
 
 .cardtent {
-  width: 20%;
-  color: #babebf;
+	width: 20%;
+	color: #babebf;
 }
 /* BOUTON */ 
 
@@ -49,34 +48,34 @@ img {
 } 
 
 @media screen and (min-width: 990px) {
-.emplacement {
-	position: absolute;
-	top: 19%;
-	left: 52%;
-	z-index: 2;
-}
+	.emplacement {
+		position: absolute;
+		top: 19%;
+		left: 52%;
+		z-index: 2;
+	}
 
-.emplacement1 {
-	position: absolute;
-	top: 54%;
-	left: 22%;
-	z-index: 2;
-}
+	.emplacement1 {
+		position: absolute;
+		top: 54%;
+		left: 22%;
+		z-index: 2;
+	}
 
-.emplacement2 {
-	position: absolute;
-	top: 28%;
-	left: 34%;
-	z-index: 2;
-}
+	.emplacement2 {
+		position: absolute;
+		top: 28%;
+		left: 34%;
+		z-index: 2;
+	}
 
-.emplacement3 {
-	position: absolute;
-	top: 28%;
-	left: 46%;
-	z-index: 2;
+	.emplacement3 {
+		position: absolute;
+		top: 28%;
+		left: 46%;
+		z-index: 2;
+	}
 }
-
 
 
 @media screen and (max-width: 990px) {
