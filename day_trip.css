@@ -19,9 +19,9 @@ img {
 }
 
 .toThe {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin-left: 1rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	margin-left: 1rem;
 }
 
 /*body .imgCard{
@@ -30,7 +30,7 @@ img {
 }*/
 
 .cardtent {
-  width: 20%;
+	width: 20%;
 }
 /* BOUTON */ 
 
@@ -47,7 +47,7 @@ img {
 /*.posAbs {
 	position: relative;
 	width: 100%;
-  height: 100%;
+	height: 100%;
 }*/
 
 @media screen and (min-width: 990px) {
