@@ -1,25 +1,25 @@
 
 /* Position text in the middle of the page/image */
 .bg-text {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-  color: white;
-  font-weight: bold;
-  font-size: 30px;
-  border: 10px solid #f1f1f1;
-  position: absolute;
-  left: 50%;
-  margin-top: 30%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 300px;
-  padding: 20px;
-  text-align: center; 
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	border: 10px solid #f1f1f1;
+	position: absolute;
+	left: 50%;
+	margin-top: 30%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	width: 300px;
+	padding: 20px;
+	text-align: center; 
 }
 
 .bg-text a {
-  text-decoration: none;
-  color: white;
+	text-decoration: none;
+	color: white;
 
 }
 
@@ -27,16 +27,16 @@
 
 section .homepage {
 	position: relative;
-  max-width: 100%;
+	max-width: 100%;
 }
 
 section .homepage img {
 	position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  max-width: 100%;
-  border-radius: 4px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	max-width: 100%;
+	border-radius: 4px;
 
 }
 
@@ -73,15 +73,15 @@ section .menu{
 .container {
 	position: relative;
 	width: 70%;
-  }
-  
-  .image {
+	}
+	
+	.image {
 	display: block;
 	width: 100%;
 	height: auto;
-  }
-  
-  .jour .overlay {
+	}
+	
+	.jour .overlay {
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -92,9 +92,9 @@ section .menu{
 	transition: .5s ease;
 	background-color:#ffa500;
 	opacity: 0;
-  }
+	}
 
-  .nuit .overlay {
+	.nuit .overlay {
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -105,9 +105,9 @@ section .menu{
 	opacity: 0;
 	transition: .5s ease;
 	background-color:black;
-  }
-  
-  .container .nuit:hover .overlay {
+	}
+	
+	.container .nuit:hover .overlay {
 	opacity: 0.9;
 	}
 
@@ -115,8 +115,8 @@ section .menu{
 	opacity: 0.9;
 	}
 	
-  
-  .text {
+	
+	.text {
 	color: white;
 	font-weight: bold;
 	font-size: 30px;
@@ -127,7 +127,7 @@ section .menu{
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 	text-align: center;
-  }
+	}
 
 	@media screen and (min-width: 200px) and (max-width: 640px) {
 		.bg-text {
