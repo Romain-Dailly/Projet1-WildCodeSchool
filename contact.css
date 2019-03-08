@@ -1,9 +1,9 @@
 
 #map{ /* la carte DOIT avoir une hauteur sinon elle n'apparaît pas */
-    height:70vh;
+		height:70vh;
 }
 /*check box*/
-/* .overlay{
+.overlay{
 	top:25%;
 	left: 100px;
 	background-color: #073856;
@@ -17,20 +17,20 @@
 	display: inline-block;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
-} */
+}
 /*fin check box*/
 
 .form{
-    background-color:#9e9d97;
+		background-color:#9e9d97;
 	border-radius: 10px;
 }
 
 .form_col {
-    margin-right: 15px;
-    padding: 3px 0px;
-    width: 200px;
-    min-height: 1px;
-    text-align: left;
+		margin-right: 15px;
+		padding: 3px 0px;
+		width: 200px;
+		min-height: 1px;
+		text-align: left;
 }
 
 
