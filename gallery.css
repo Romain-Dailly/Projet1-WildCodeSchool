@@ -197,3 +197,12 @@ img.hover-shadow {
 		height:14vh;
 	}
 }
+/* Scroll fade moon and sun*/
+.luso{
+	opacity: 0;
+	transition: opacity 4s;
+	}
+	.luso.visible { 
+	opacity: 1;
+	}
+	

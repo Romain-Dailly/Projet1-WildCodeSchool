@@ -19,14 +19,22 @@ nav {
 	margin-left: 95%;
 	opacity: 0.5;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 085f6dfb1876b52be33e7243bed21e09d9cd8be1
 h2, h1 {
 	margin-top: 3%;
 	font-weight: bold;
 	text-align: center;
 }
-.navbar-collapse{
-	z-index:10000;
+
+h6 a
+{
+	color:#333333;
 }
 
-
+h6 a:hover
+{
+	color:#333333;
+}
