@@ -159,7 +159,7 @@ img.hover-shadow {
 	}
 /* fade hover marqueur vers map*/
 .mySlides:hover ~ .carousel-caption img{
-	opacity:1;
+	opacity:0.8;
 	transition:opacity 2s
 }	
 .modal-content .carousel-caption img{
@@ -167,7 +167,7 @@ img.hover-shadow {
 	transition:opacity 2s;
 }
 .carousel-caption img:hover{
-	opacity:1;
+	opacity:0.8;
 }
 @media only screen and (min-width: 950px) {
 	.bloc2{
