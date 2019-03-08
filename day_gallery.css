@@ -44,7 +44,8 @@ section a:hover{
 }
 .carousel-item .carousel-caption{
     display:flex;
-    visibility: hidden;
+    opacity:0;
+    transition: opacity 2s;
     text-align:right;
     margin-top:42%;
     padding-right:5%;
@@ -55,7 +56,8 @@ section a:hover{
 
 }
 .carousel-item:hover > .carousel-caption{
-    visibility:visible;
+    opacity:1;
+    transition: opacity 2s
 }
 .carousel-item img{
     border-top-left-radius: 2px;
